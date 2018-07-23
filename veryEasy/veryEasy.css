@@ -1,0 +1,17 @@
+body {
+    background: black;
+}
+
+.white-tile {
+    background: white;
+    border: white;
+    padding: 25px;
+    display: inline-block;
+}
+
+.black-tile {
+    background: black;
+    border: black;
+    padding: 25px;
+    display: inline-block;
+}
