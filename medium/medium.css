@@ -5,7 +5,7 @@
 } */
 
 img {
-    max-width: 100%;
+    max-width: 60%;
 }
 
 #gallery-1, #gallery-2 {
@@ -14,12 +14,24 @@ img {
     padding: 0;
 }
 
+div {
+    column-count: 2;
+    column-gap: 40px;
+    column-width: 100px;
+
+}
+
+/* 
 #gallery-1 li, #gallery-2 li {
     float: left;
     width: 35%;
     margin: 2.5%;
 }
 
-#gallery-1 li:nth-child(3n), #gallery-2 li:nth-child(3n) {
+#gallery-1 li:nth-child(3n) {
     clear: left;
 }
+
+#gallery-2 li:nth-child(3n) {
+    clear: left;
+} */
