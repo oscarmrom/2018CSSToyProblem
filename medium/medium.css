@@ -1,17 +1,28 @@
 .column {
     background-color: grey;
+    padding: 0 0 16px 0;
     float: left;
     margin: 10px 0;
-    text-align: center;
     width: 25%;
     height: 200px;
+}
+
+.column a {
+    text-decoration: none;
+    color: white;
+    bottom: 0;
 }
 
 h2 {
     font-size: 1em;
     font-family: sans-serif;
+    margin: 24px 0 0 0;
 }
 
 img {
     max-width: 60%;
+}
+
+.container {
+    padding: 16px 0;
 }

@@ -1,0 +1,32 @@
+body {
+    background: black;
+}
+
+#red, #yellow, #blue, #green {
+    color: white;
+    float: left;
+}
+
+#red {
+    border-right: solid white 1px;
+    border-bottom: solid white 1px;
+    width: 40px;
+    padding: 50px 30px 20px 30px;
+}
+
+#yellow {
+    border-bottom: solid white 1px;
+    padding: 50px 30px 20px 30px;
+}
+
+ #blue {
+    clear: left;
+    border-right: solid white 1px;
+    width: 40px;
+    padding: 30px 30px 50px 30px;
+ }
+
+ #green {
+    padding: 30px 30px 50px 30px;
+
+ }
